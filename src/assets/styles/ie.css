@@ -1,0 +1,9 @@
+.boxshadow
+{
+	behavior: url('https://afinadoronline.com.br/etc/styles/ie-box-shadow.htc');
+}
+
+.borderradius
+{
+	behavior: url('https://afinadoronline.com.br/etc/styles/ie-border-radius.htc');
+}

@@ -1,0 +1,745 @@
+/****************************************
+*
+*  @IMPORT
+*
+*    0 _ ALL DEVICES
+*    1 _ SMARTPHONES
+*    2 _ TABLETS
+*    3 _ COMPUTERS
+*
+*     .0 _ BASIC
+*     .1 _ AREAS
+*     .2 _ TYPOGRAPHY
+*     .3 _ MEDIA
+*     .4 _ ETC
+*     .5 _ EXCEPTIONS
+*
+*       -A _ GENERAL
+*       -B _ SPECIFIC
+*
+****************************************/
+
+@import url('/src/assets/styles/bootstrap.css');
+@import url('//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600');
+
+/****************************************************************************************
+****************************************************************************************/
+
+
+/*****
+* 0 _ ALL DEVICES
+*****/
+
+  /****
+  * 0.0 _ BASIC
+  ****/
+  body {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    background:#4A2813;
+    font-family:'Open Sans', sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+  }
+
+  /****
+  * 0.1 _ AREAS
+  ****/
+
+    /***
+    * 0.1-A _ GENERAL AREAS
+    ***/
+
+      /**
+      * WHITE
+      **/
+      .white {
+        background:#EEEEEE;
+      }
+
+      /**
+      * COLORED
+      **/
+      .colored {
+        color:#F2F1EF;
+      }
+
+      /**
+      * GREEN
+      **/
+      .green {
+        background:#3F4E50;
+      }
+
+      /**
+      * RED
+      **/
+      .red {
+        background:#7E1618;
+      }
+
+      /**
+      * BROWN
+      **/
+      .brown {
+        background:#4A2813;
+      }
+
+    /***
+    * 0.1-B _ SPECIFIC AREAS
+    ***/
+
+      /**
+      * GREEN.TOP
+      **/
+      .green.top .container {
+        padding-top:60px;
+        padding-bottom:60px;
+        text-align:center;
+      }
+
+      /**
+      * RED.TOP
+      **/
+      .red.top .container {
+        padding-top:10px;
+        padding-bottom:10px;
+      }
+
+      /**
+      * WHITE
+      **/
+      .white .container {
+        padding-bottom:40px;
+      }
+
+      /**
+      * BROWN.BOTTOM
+      **/
+      .brown.bottom {
+        padding-top:20px;
+        padding-bottom:20px;
+        border-top: 5px solid #754527;
+        text-align:center;
+      }
+
+      /**
+      * COMBINED
+      **/
+
+        /* WHITE.MIDDLE & RED.BOTTOM & GREEN.BOTTOM */
+        .red.bottom .container,
+        .green.bottom .container,
+        .white.middle .container {
+          padding-top:30px;
+        }
+
+  /****
+  * 0.2 TYPOGRAPHY
+  ****/
+
+    /***
+    * 0.2-A GENERAL TYPOGRAPHY
+    ***/
+      .text-center {text-align:center;}
+
+      /**
+      * HEADINGS
+      **/
+      h1, h2, h3, h4, h5, h6 {
+        line-height:1.1;
+        font-family:inherit;
+        color:inherit;
+        margin-top: 20px;
+        margin-bottom: 10px;
+      }
+      h1 {
+        font-weight:600;
+      }
+      h2 {
+        font-size:28px;
+      }
+      h2 b {
+        font-weight:600;
+      }
+      h3 {
+        font-size:22px;
+      }
+
+      /**
+      * PARAGRAPHS
+      **/
+      p {
+        font-size:18px;
+        font-weight:300;
+        margin: 0 0 10px;
+      }
+      p.small {
+        font-size:16px;
+      }
+      p.large {
+        font-size:20px;
+      }
+      p.xlarge {
+        font-size:22px;
+      }
+      p.normal {
+        font-weight:300;
+      }
+      p.bold {
+        font-weight:400;
+      }
+      p.xbold {
+        font-weight:600;
+      }
+      p.italic {
+        font-style:italic;
+      }
+      p strong,
+      p b {
+        font-weight:400;
+      }
+
+      /**
+      * LINKS
+      **/
+      a,
+      a:hover,
+      a:focus,
+      a:visited {
+        color:#D81F20;
+      }
+      a.muspla {
+        font-size: 14px;
+      }
+
+      /**
+      * LISTS
+      **/
+      main ul {
+        font-size:18px;
+      }
+      main ul li {
+        color:#44595A;
+      }
+
+      /**
+      * TABLES
+      **/
+      table {color:#44595A;}
+      table th {text-transform:uppercase;}
+      table th[scope=row] {text-align:center;}
+
+      /**
+      * QUOTES
+      **/
+      blockquote.newapp {
+        padding:20px;
+        background:#dfdfdf;
+        border:1px solid #fff;
+        border-radius:4px;
+        text-align:center;
+        margin:0 auto 20px;
+      }
+      blockquote.newapp p {
+        margin:0;
+      }
+
+    /***
+    * 0.2-B SPECIFIC TYPOGRAPHY
+    ***/
+
+      /**
+      * HEADINGS
+      **/
+
+        /* WHITE */
+        .white.middle h2,
+        .white.middle h3 {
+          color: #44595A;
+        }
+        .white.middle h2 {
+          line-height: 34px;
+          margin-top: 40px;
+          margin-bottom: 30px;
+          text-align: center;
+          line-height: 30px;
+        }
+        .white.middle h3 {
+          margin:10px 0 15px;
+          font-weight:400;
+        }
+
+        /* COLORED */
+        .colored h1,
+        .colored h2,
+        .colored h3 {
+          color:#FFFFFF;
+          text-shadow:0px 0px 6px rgba(0,0,0,.5);
+        }
+
+        /* GREEN */
+        .green.top h1 {
+          margin: 20px 0 5px;
+          font-size: 36px;
+        }
+        .green.top h2 {
+            margin:0 0 25px;
+            font-weight:300;
+            font-size:24px;
+        }
+        .green.top h2 b {
+            font-weight:400;
+        }
+
+        /* RED */
+        .red.bottom h2 {
+          margin-top:20px;
+          font-weight:600;
+        }
+
+        /* COMBINED */
+        .red.top h3,
+        .green.bottom h3 {
+          margin:30px 0;
+          font-size:24px;
+          line-height:1.1;
+          font-weight:lighter;
+        }
+        .red.top h3 b,
+        .green.bottom h3 b {
+          font-size: 34px;
+          line-height: 40px;
+          padding: 0 0 5px;
+          font-weight:400;
+          display:inline-block;
+        }
+
+      /**
+      * PARAGRAPHS
+      **/
+        /* WHITE */
+        .white.middle p {
+          color:#444444;
+        }
+
+        /* GREEN */
+        .green.top p.large {
+            margin-bottom:15px;
+        }
+
+        /* RED */
+        .red.bottom p {
+          line-height:20px;
+        }
+        /* BROWN */
+        .brown.bottom p {
+          font-size:16px;
+          padding:9px 0;
+          color:#A9988D;
+        }
+        .brown.bottom p small {
+          color:#F2F1EF;
+        }
+        .brown.bottom p.text-center {
+          margin:0;
+        }
+
+      /**
+      * LINKS
+      **/
+        /* BROWN */
+        .brown a {
+          color:#FFFFFF;
+          text-decoration:none;
+        }
+
+        /* GREEN */
+        .green.top ul {
+          padding:0;
+          margin:0 0 25px;
+        }
+        .green.top ul li {
+          list-style:none;
+          display:inline-block;
+          margin:0 10px 0 0;
+        }
+        .green.top ul li a {
+          color:#F2F1EF;
+          font-weight:400;
+          font-style:italic;
+          font-size:18px;
+          text-decoration:none;
+        }
+        .green.top ul li a::before{
+          content:"#";
+          font-style:italic;
+        }
+
+      /**
+      * LISTS
+      **/
+
+  /****
+  * 0.3 _ MEDIA
+  ****/
+
+    /***
+    * 0.3-A _ GENERAL MEDIA
+    ***/
+
+      /**
+      * IMAGES
+      **/
+      figure {
+        margin:0;
+      }
+      figure img {
+        margin: 0 auto;
+        border:0;
+      }
+      figure figcaption {
+        color: #666666;
+        text-align:center;
+        font-style:italic;
+      }
+
+    /***
+    * 0.3-B _ SPECIFIC MEDIA
+    ***/
+
+      /**
+      * GREEN
+      **/
+      .green.top figcaption {
+        color:#BDC3C7;
+      }
+
+      /**
+      * BROWN
+      **/
+      .brown.bottom img.brand {
+        margin:auto;
+        width: 64px;
+        height:64px;
+        margin-bottom: 5px;
+      }
+
+  /****
+  * 0.4 _ ETC
+  ****/
+
+    /***
+    * 0.4-A _ GENERAL ETC
+    ***/
+
+      /**
+      * ADS
+      **/
+      .ads {
+        width:100%;
+        height:auto;
+      }
+        /* AD1 */
+        .ad1 {
+          margin-top:20px;
+        }
+        /* AD2 */
+        .ad2 {
+          margin-bottom:20px;
+        }
+        /* AD3 */
+        .ad3 {
+          margin:20px 0;
+        }
+
+      /**
+      * NAVIGATION
+      **/
+      .nav {
+        font-size: 14px;
+      }
+      .navbar {
+          border-top:none;
+          border-bottom:3px solid #754527;
+          margin-bottom:0;
+      }
+      .navbar-header,
+      .collapse {
+          background:#4A2813;
+      }
+      .navbar-header {
+          width: 100%;
+          position: relative;
+      }
+      .navbar .navbar-brand {
+          text-indent: -9909px;
+          background: url(/src/assets/images/logo_full-250x129.png) no-repeat center top;
+          width: 250px;
+          height: 120px;
+          position: absolute;
+          left: 55%;
+          top: 5px;
+          transform: translateX(-50%);
+          z-index:999;
+      }
+      .navbar-nav > li > a:hover {
+          background:#754527;
+      }
+      .navbar-toggle {
+          z-index:3;
+      }
+      .collapse {
+        display:none;
+      }
+
+      /**
+      * BUTTONS
+      **/
+      .btn-lg {
+        padding: 14px 40px;
+        font-weight: bold;
+      }
+      .btn {
+        border-radius: 3px;
+        display:inline-block;
+      }
+      a.btn-primary ,
+      button.btn-primary {
+        background: #8E1C1E;
+        border:none;
+        color: #FFFFFF;
+      }
+      a.btn-primary:hover,
+      button.btn-primary:hover,
+      a.btn-primary:focus,
+      button.btn-primary:focus,
+      a.btn-primary:active,
+      button.btn-primary:active {
+        background: #9C1C1E;
+      }
+      .btn-opinion {
+        margin-top: 30px;
+        margin-bottom:30px;
+        text-decoration:none;
+      }
+
+      /**
+      * OTHER
+      **/
+      hr, .hr {
+        display:block;
+        width:100%;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        border: 0;
+        border-top: 1px solid #eee;
+        height: 0;
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+      }
+
+    /***
+    * 0.4-B _ SPECIFIC ETC
+    ***/
+
+  /****
+  * 0.5 _ EXCEPTIONS
+  ****/
+
+    /***
+    * HOME
+    ***/
+    body.home .red.top .container {
+        padding-top:0;
+    }
+    body.home .white.middle .row div {
+        padding-top:10px;
+        padding-bottom:10px;
+    }
+    body.home .white.middle h3::after {
+        content:" \276F";
+        color:#bdc3c7;
+    }
+    body.home .white.middle p {
+        line-height: 26px;
+        margin-bottom:12px;
+    }
+    body.home .white.middle p.xlarge {
+        margin-bottom: 40px!important;
+    }
+
+    /***
+    * PAGE
+    ***/
+    body.page .white.middle h2{
+      font-weight:400;
+    }
+    body.page .white.middle table.table {
+      margin-top:40px;
+      margin-bottom:40px;
+    }
+    body.page .white.middle img {
+        margin-bottom:15px;
+    }
+    body.page .ads {
+        margin:20px 0;
+    }
+    body.page .ads.ad2 {
+      min-width:300px;
+      margin: 40px 0 0;
+    }
+
+/****************************************************************************************
+****************************************************************************************/
+
+
+/*****
+* SMARTPHONES
+*****/
+
+
+/****************************************************************************************
+****************************************************************************************/
+
+
+/*****
+* TABLETS
+*****/
+@media (min-width: 768px) {
+
+  /****
+  * GENERAL
+  ****/
+  .visible-xs {
+    display:none;
+  }
+
+  /****
+  * TYPOGRAPHY
+  ****/
+  .green.top,
+  .white.middle h2,
+  .brown.bottom {
+      text-align: left;
+  }
+  body.home .white.middle h2 {
+    text-align: center;
+  }
+  body.page .white.middle img {
+    width:448px;
+    height:349px;
+  }
+  .white ul#mais {
+    padding: 0;
+    margin:0;
+    list-style:none;
+  }
+  .white ul#mais li {
+    display:inline-block;
+    width:31%;
+    margin:0 .75% 1.5%;
+    padding:.75%;
+    text-align:center;
+    border:1px solid #ddd;
+  }
+  .white ul#mais li a{
+    color:#44595A;
+    font-weight:400;
+  }
+
+  /****
+  * MEDIA
+  ****/
+  .green.top figure picture img {
+    width: 650px;
+    height: 380px;
+  }
+
+  /****
+  * OTHER
+  ****/
+  body.page .ads.ad2 {
+    margin: 0;
+  }
+
+}
+
+
+/****************************************************************************************
+****************************************************************************************/
+
+
+/*****
+* COMPUTERS
+*****/
+@media (min-width: 992px) {
+
+  /****
+  * GENERAL
+  ****/
+  .visible-sm {
+    display:none;
+  }
+
+  /****
+  * AREAS
+  ****/
+  .green.top .container {
+      text-align: left;
+      padding-top:40px;
+      padding-bottom:40px;
+  }
+  .brown.bottom {
+      padding-bottom:20px;
+  }
+
+  /****
+  * TYPOGRAPHY
+  ****/
+
+  /****
+  * MEDIA
+  ****/
+  .white figcaption {
+    text-align:left
+  }
+  .green.top figcaption {
+    text-align: right;
+    padding: 0 175px 0 0;
+    margin-top: -25px;
+  }
+
+  /****
+  * ETC
+  ****/
+
+    /***
+    * NAVIGATION
+    ***/
+    .navbar .navbar-brand {
+        background: url(/src/assets/images/logo_full-171x88.png) no-repeat center top;
+        width:171px;
+        height:88px;
+        left: 110px;
+    }
+    .collapse {
+      display:block;
+    }
+
+
+
+    body.home .white.middle h2 {
+        margin-bottom: 10px;
+    }
+    body.home .white.middle .description {
+        padding-top:25px !important;
+    }
+    body.home .white.middle .hr.top {
+      display:none;
+    }
+    body.home .red.bottom img {
+        margin-top:16px;
+    }
+}

@@ -1,0 +1,345 @@
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+    src: url('../fonts/Roboto-regular/Roboto-regular.eot');
+    src: url('../fonts/Roboto-regular/Roboto-regular.eot?#iefix') format('embedded-opentype'),
+    local('Roboto'),
+    local('Roboto-regular'),
+    url('../fonts/Roboto-regular/Roboto-regular.woff2') format('woff2'),
+    url('../fonts/Roboto-regular/Roboto-regular.woff') format('woff'),
+    url('../fonts/Roboto-regular/Roboto-regular.ttf') format('truetype'),
+    url('../fonts/Roboto-regular/Roboto-regular.svg#Roboto') format('svg');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: italic;
+    src: url('../fonts/Roboto-italic/Roboto-italic.eot');
+    src: url('../fonts/Roboto-italic/Roboto-italic.eot?#iefix') format('embedded-opentype'),
+    local('Roboto Italic'),
+    local('Roboto-italic'),
+    url('../fonts/Roboto-italic/Roboto-italic.woff2') format('woff2'),
+    url('../fonts/Roboto-italic/Roboto-italic.woff') format('woff'),
+    url('../fonts/Roboto-italic/Roboto-italic.ttf') format('truetype'),
+    url('../fonts/Roboto-italic/Roboto-italic.svg#Roboto') format('svg');
+}
+
+
+
+
+@font-face {
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-style: normal;
+    src: url('../fonts/Open-Sans-300/Open-Sans-300.eot');
+    src: url('/src/assets/fonts/Open-Sans-300/Open-Sans-300.eot?#iefix') format('embedded-opentype'),
+    local('Open Sans Light'),
+    local('Open-Sans-300'),
+    url('/src/assets/fonts/Open-Sans-300/Open-Sans-300.woff2') format('woff2'),
+    url('/src/assets/fonts/Open-Sans-300/Open-Sans-300.woff') format('woff'),
+    url('/src/assets/fonts/Open-Sans-300/Open-Sans-300.ttf') format('truetype'),
+    url('/src/assets/fonts/Open-Sans-300/Open-Sans-300.svg#OpenSans') format('svg');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-style: normal;
+    src: url('/src/assets/fonts/Open-Sans-regular/Open-Sans-regular.eot');
+    src: url('/src/assets/fonts/Open-Sans-regular/Open-Sans-regular.eot?#iefix') format('embedded-opentype'),
+    local('Open Sans'),
+    local('Open-Sans-regular'),
+    url('/src/assets/fonts/Open-Sans-regular/Open-Sans-regular.woff2') format('woff2'),
+    url('/src/assets/fonts/Open-Sans-regular/Open-Sans-regular.woff') format('woff'),
+    url('/src/assets/fonts/Open-Sans-regular/Open-Sans-regular.ttf') format('truetype'),
+    url('/src/assets/fonts/Open-Sans-regular/Open-Sans-regular.svg#OpenSans') format('svg');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-style: normal;
+    src: url('../fonts/Open-Sans-600/Open-Sans-600.eot');
+    src: url('../fonts/Open-Sans-600/Open-Sans-600.eot?#iefix') format('embedded-opentype'),
+    local('Open Sans Semibold'),
+    local('Open-Sans-600'),
+    url('../fonts/Open-Sans-600/Open-Sans-600.woff2') format('woff2'),
+    url('../fonts/Open-Sans-600/Open-Sans-600.woff') format('woff'),
+    url('../fonts/Open-Sans-600/Open-Sans-600.ttf') format('truetype'),
+    url('../fonts/Open-Sans-600/Open-Sans-600.svg#OpenSans') format('svg');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-style: italic;
+    src: url('../fonts/Open-Sans-300italic/Open-Sans-300italic.eot');
+    src: url('../fonts/Open-Sans-300italic/Open-Sans-300italic.eot?#iefix') format('embedded-opentype'),
+    local('Open Sans Light Italic'),
+    local('Open-Sans-300italic'),
+    url('../fonts/Open-Sans-300italic/Open-Sans-300italic.woff2') format('woff2'),
+    url('../fonts/Open-Sans-300italic/Open-Sans-300italic.woff') format('woff'),
+    url('../fonts/Open-Sans-300italic/Open-Sans-300italic.ttf') format('truetype'),
+    url('../fonts/Open-Sans-300italic/Open-Sans-300italic.svg#OpenSans') format('svg');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-style: italic;
+    src: url('../fonts/Open-Sans-italic/Open-Sans-italic.eot');
+    src: url('../fonts/Open-Sans-italic/Open-Sans-italic.eot?#iefix') format('embedded-opentype'),
+    local('Open Sans Italic'),
+    local('Open-Sans-italic'),
+    url('../fonts/Open-Sans-italic/Open-Sans-italic.woff2') format('woff2'),
+    url('../fonts/Open-Sans-italic/Open-Sans-italic.woff') format('woff'),
+    url('../fonts/Open-Sans-italic/Open-Sans-italic.ttf') format('truetype'),
+    url('../fonts/Open-Sans-italic/Open-Sans-italic.svg#OpenSans') format('svg');
+}
+
+
+body {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    background-color: #fff;
+    font-family:'Open Sans', sans-serif;
+    font-weight:300;
+    color: #444;
+}
+
+p {
+    font-size:16px;
+}
+
+a { color:#D81F1F;}
+
+.thin {font-weight:200;}
+
+
+p.large {
+    font-size:17px;
+}
+p.extralarge {font-size:22px;line-height:160%;}
+
+p.italic {font-style:italic;}
+p.thin.italic b {font-weight:400;}
+
+.semibold {
+    font-weight:400 !important;
+}
+.bold{
+    font-weight:bold !important;
+}
+
+.navbar {margin-bottom:0;border-bottom:5px solid #754527;}
+
+.navbar a {color:#fff;text-decoration:underline;}
+
+.navbar .navbar-brand {
+    text-indent: -9909px;
+    background: url(https://afinadoronline.com.br/retro/afinador-online.png) no-repeat center top;
+    width: 300px;
+    height: 155px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index:999;
+    background-size:210px;
+}
+
+header h1 {
+    font-weight:600;
+    margin: 20px 0 5px;
+}
+header h2 {
+    font-weight:200;
+    margin:0 0 25px;
+    font-size:24px;
+}
+header h2 b {
+    font-weight:400;
+}
+.learn {
+    padding: 30px 0;
+}
+#instruments {
+    padding-top:20px;
+    padding-bottom:30px;
+}
+#instruments h2 {
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 34px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+#instruments p.extralarge {
+    margin-bottom: 30px;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 300;
+}
+#instruments h3 {
+    margin:10px 0 15px;
+    font-weight:400;
+}
+#instruments h3::after {content:" ❯";color:#e1e1e1;}
+#instruments h3 a {
+    color:#fff;
+    padding-bottom:3px;
+    border-bottom:2px solid #7E1618;
+    font-size:20px;
+}
+#instruments h3 a:hover {text-decoration:none;}
+#instruments p {font-weight:200;}
+#instruments .row div {padding-top:10px;padding-bottom:10px;}
+
+.red {
+    background-color:#7E1618;
+    background-image:linear-gradient(to left, #7E1618, #941e20, #7b0406);
+}
+.green {
+    /*background:#3B4F50;*/
+    background-color: #3f4e51;
+}
+
+.red,
+.green {color:#eee;}
+
+.short {}
+.short h3 {margin-bottom:20px;font-weight:200;}
+.short h3 b {font-weight:400;display:inline-block;padding-bottom:5px;}
+
+
+.green.long {padding:40px 0;}
+
+.navbar-header,
+.collapse {
+    background:#4A2813;
+}
+.navbar-brand {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
+}
+.navbar {
+    border-top:none;
+}
+.navbar-nav > li > a {
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: -.7px;
+    transition: background 100ms ease-in-out;
+}
+.navbar-nav > li > a:hover {
+    background-color:#754527;
+}
+header {
+    text-align: center;
+    padding-top:10px;
+}
+
+.navbar-toggle {
+    z-index:3;
+}
+footer p {font-size:16px;}
+
+.ads {
+    background: #080808;
+}
+.al1 {
+    padding:20px 0;
+}
+
+.ad2 {
+    margin-bottom: 30px;
+}
+.ad2, .ad3 {
+    margin-top: 40px;
+}
+
+.main-content {
+    padding-top:10px;
+    padding-bottom:30px;
+}
+.main-content h2 {
+    margin-top:30px;
+    margin-bottom:10px;
+}
+.main-content .img-responsive {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.main-content p {
+    line-height: 22px;
+    margin-bottom:12px;
+    font-weight:normal;
+    font-family:'Roboto', sans-serif;
+}
+.main-content ul {
+    font-family:'Roboto', sans-serif;
+}
+
+.footer{
+    background:#4A2813;
+    color:#fff;
+    border-top:5px solid #754527;
+    padding-top:20px;
+    padding-bottom:30px;
+    text-align: center;
+}
+.footer .footer-brand {
+    margin:auto;
+    width: 64px;
+    margin-bottom: 5px;
+}
+.footer a {
+    color: #9cccd6;
+}
+
+
+/** Tablet **/
+@media (min-width: 768px) {
+}
+
+
+/** Desktop **/
+@media (min-width: 992px) {
+    .navbar .navbar-brand {
+        background-size:80%;
+    }
+    header {
+        text-align: left;
+    }
+    #instruments {
+        padding-top:30px;
+        padding-bottom:30px;
+    }
+    #instruments h2 {
+        margin-bottom: 4px;
+    }
+    #instruments .description {
+        padding-top:62px !important;
+    }
+    .retro img {
+        margin-top:16px;
+    }
+    .footer {
+        padding-bottom:20px;
+    }
+
+    .main-content {
+        padding-top:40px;
+        padding-bottom:30px;
+    }
+    .main-content h2 {
+        margin-top:40px;
+        margin-bottom:10px;
+    }
+}

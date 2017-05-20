@@ -1,0 +1,27 @@
+ol, ul, li { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+ol, ul { list-style: none; }
+
+body#home { font-family: 'Lobster Two', Georgia, "Times New Roman", Times, serif; color:#fff;}
+
+/*** BACKGROUNDS ***/
+body#home #top { clear:both; float:left; background:url('/src/etc/images/retro-1.jpg') center top no-repeat; height:1027px; width:100%; display:block; }
+body#home #bottom { clear:both; float:left; background:url('/src/etc/images/retro-2.jpg') top center no-repeat; height:1083px; width:100%; display:block; }
+
+/*** TOOL ***/
+#tool { position:absolute; top:286px; left:0; z-index:1; width:100%; }
+#ops { display: block; position:relative; width: 250px; height: 75px; z-index: 9999; left: 520px; top: 690px; text-indent: -999999px; }
+
+/*** ABOUT ***/
+body#home #about { clear:both; float:left; width:600px; height:330px; margin:70px 0 0 180px; }
+body#home #about h2 { color:#fff; font-size:26px; float:right; margin:0; font-weight:normal; line-height:116%; padding:0; width:410px; text-align:center; }
+body#home #about h2 span {font-size:48px;padding: 0 5px 0 0;line-height:130%;font-weight:600;}
+body#home #about h3 { color: #fff; font-size:24px; font-weight:normal; line-height:120%; }
+body#home #about p { clear:both; float:left; color:#fff; text-align:justify; font-size:20px; line-height:130%; padding:10px 0 0; font-weight:normal; }
+body#home #about a { color:#fff; text-decoration:none; }
+body#home #about img { float:left; width:128px; height:128px; margin:5px 0 0 0; }
+
+/*** ADS ***/
+.ads { clear:both; float:left; width:728px; height:90px; background:#000;}
+#adtop { margin:144px 0 51px 118px; }
+#adbottom { margin:372px 0 0 117px; }
+
