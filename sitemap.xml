@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+IMAGENS ERRADAS:
+  PÁGINA INICIAL
+  EDIÇÃO RETRO (DELETADA TEMPORARIAMENTE)
+  AFINADOR RETRO
+  METRONOMO RETRO
+  COMO AFINAR (ROOT)
+-->
+  <urlset
+    xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="https://www.w3.org/1999/xhtml"
+    xmlns:image="https://www.google.com/schemas/sitemap-image/1.1">
+<!--
+  AFINADOR ONLINE
+-->
+    <url>
+      <loc>https://www.afinadoronline.com.br/</loc>
+      <lastmod>2017-05-21T04:20-03:00</lastmod>
+      <image:image>
+        <image:loc>https://www.afinadoronline.com.br/src/uploads/afinador-online.png</image:loc>
+        <image:title>Afinador Online</image:title>
+        <image:caption><![CDATA[Afinador Online 2017]]></image:caption>
+      </image:image>
+    </url>
+<!--
+  COMO AFINAR
+-->
+    <url>
+      <loc>https://www.afinadoronline.com.br/como-afinar/</loc>
+      <lastmod>2017-05-21T04:20-03:00</lastmod>
+      <image:image>
+        <image:loc>https://www.afinadoronline.com.br/src/uploads/como-afinar.jpg</image:loc>
+        <image:title>Como Afinar</image:title>
+        <image:caption><![CDATA[Como afinar seu Instrumento]]></image:caption>
+      </image:image>
+    </url>
+<!--
+  VIOLÃO
+-->
+    <url>
+      <loc>https://www.afinadoronline.com.br/como-afinar/violao/</loc>
+      <lastmod>2017-05-21T04:20-03:00</lastmod>
+      <image:image>
+        <image:loc>https://www.afinadoronline.com.br/src/uploads/afinador-violao.png</image:loc>
+        <image:title>afinador de violão</image:title>
+        <image:caption><![CDATA[Afinador de Violão Online]]></image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.afinadoronline.com.br/src/uploads/afinar-violao.jpg</image:loc>
+        <image:title>afinar violão</image:title>
+        <image:caption><![CDATA[Como afinar um violão]]></image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.afinadoronline.com.br/src/uploads/afinacao-violao.jpg</image:loc>
+        <image:title>afinação de violão</image:title>
+        <image:caption><![CDATA[Afinação padrão do violão]]></image:caption>
+      </image:image>
+    </url>
+<!--
+  GUITARRA
+-->
+    <url>
+      <loc>https://www.afinadoronline.com.br/como-afinar/guitarra/</loc>
+      <lastmod>2017-05-21T04:20-03:00</lastmod>
+      <image:image>
+        <image:loc>https://www.afinadoronline.com.br/src/uploads/afinador-guitarra.png</image:loc>
+        <image:title>afinador de guitarra</image:title>
+        <image:caption><![CDATA[Afinador de Guitarra Online]]></image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.afinadoronline.com.br/src/uploads/afinar-guitarra.jpg</image:loc>
+        <image:title>afinar guitarra</image:title>
+        <image:caption><![CDATA[Como afinar uma guitarra]]></image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.afinadoronline.com.br/src/uploads/afinacao-guitarra.jpg</image:loc>
+        <image:title>afinação de guitarra</image:title>
+        <image:caption><![CDATA[Afinação padrão da guitarra]]></image:caption>
+      </image:image>
+    </url>
+<!--
+  CAVAQUINHO
+-->
+    <url>
+      <loc>https://www.afinadoronline.com.br/como-afinar/cavaquinho/</loc>
+      <lastmod>2017-05-21T04:20-03:00</lastmod>
+      <image:image>
+        <image:loc>https://www.afinadoronline.com.br/src/uploads/afinador-cavaquinho.png</image:loc>
+        <image:title>afinador de cavaquinho</image:title>
+        <image:caption><![CDATA[Afinador de Cavaquinho Online]]></image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.afinadoronline.com.br/src/uploads/afinar-cavaquinho.jpg</image:loc>
+        <image:title>afinar cavaquinho</image:title>
+        <image:caption><![CDATA[Como afinar um cavaquinho]]></image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.afinadoronline.com.br/src/uploads/afinacao-cavaquinho.jpg</image:loc>
+        <image:title>afinação de cavaquinho</image:title>
+        <image:caption><![CDATA[Afinação padrão do cavaquinho]]></image:caption>
+      </image:image>
+    </url>
+<!--
+  VIOLINO
+-->
+    <url>
+      <loc>https://www.afinadoronline.com.br/como-afinar/violino/</loc>
+      <lastmod>2017-05-21T04:20-03:00</lastmod>
+      <image:image>
+        <image:loc>https://www.afinadoronline.com.br/src/uploads/afinador-violino.png</image:loc>
+        <image:title>afinador de violino</image:title>
+        <image:caption><![CDATA[Afinador de Violino Online]]></image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.afinadoronline.com.br/src/uploads/afinar-violino.jpg</image:loc>
+        <image:title>afinar violino</image:title>
+        <image:caption><![CDATA[Como afinar um violino]]></image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.afinadoronline.com.br/src/uploads/afinacao-violino.jpg</image:loc>
+        <image:title>afinação de violino</image:title>
+        <image:caption><![CDATA[Afinação padrão do violino]]></image:caption>
+      </image:image>
+    </url>
+
+<!--
+  BAIXO
+-->
+    <url>
+      <loc>https://www.afinadoronline.com.br/como-afinar/baixo/</loc>
+      <lastmod>2017-05-21T04:20-03:00</lastmod>
+      <image:image>
+        <image:loc>https://www.afinadoronline.com.br/src/uploads/afinador-baixo.png</image:loc>
+        <image:title>afinador de baixo</image:title>
+        <image:caption><![CDATA[Afinador de Baixo Online]]></image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.afinadoronline.com.br/src/uploads/afinar-baixo.jpg</image:loc>
+        <image:title>afinar baixo</image:title>
+        <image:caption><![CDATA[Como afinar um baixo]]></image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.afinadoronline.com.br/src/uploads/afinacao-baixo.jpg</image:loc>
+        <image:title>afinação de baixo</image:title>
+        <image:caption><![CDATA[Afinação padrão do baixo]]></image:caption>
+      </image:image>
+    </url>
+<!--
+  BANDOLIM
+-->
+    <url>
+      <loc>https://www.afinadoronline.com.br/como-afinar/bandolim/</loc>
+      <lastmod>2017-05-21T04:20-03:00</lastmod>
+      <image:image>
+        <image:loc>https://www.afinadoronline.com.br/src/uploads/afinador-bandolim.png</image:loc>
+        <image:title>afinador de bandolim</image:title>
+        <image:caption><![CDATA[Afinador de Bandolim Online]]></image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.afinadoronline.com.br/src/uploads/afinar-bandolim.jpg</image:loc>
+        <image:title>afinar bandolim</image:title>
+        <image:caption><![CDATA[Como afinar um bandolim]]></image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.afinadoronline.com.br/src/uploads/afinacao-bandolim.jpg</image:loc>
+        <image:title>afinação de bandolim</image:title>
+        <image:caption><![CDATA[Afinação padrão do bandolim]]></image:caption>
+      </image:image>
+    </url>
+<!--
+  BANJO
+-->
+    <url>
+      <loc>https://www.afinadoronline.com.br/como-afinar/banjo/</loc>
+      <lastmod>2017-05-21T04:20-03:00</lastmod>
+      <image:image>
+        <image:loc>https://www.afinadoronline.com.br/src/uploads/afinador-banjo.png</image:loc>
+        <image:title>afinador de banjo</image:title>
+        <image:caption><![CDATA[Afinador de Banjo Online]]></image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.afinadoronline.com.br/src/uploads/afinar-banjo.jpg</image:loc>
+        <image:title>afinar banjo</image:title>
+        <image:caption><![CDATA[Como afinar um banjo]]></image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.afinadoronline.com.br/src/uploads/afinacao-banjo.jpg</image:loc>
+        <image:title>afinação de banjo</image:title>
+        <image:caption><![CDATA[Afinação padrão do banjo]]></image:caption>
+      </image:image>
+    </url>
+<!--
+  VIOLA
+-->
+    <url>
+      <loc>https://www.afinadoronline.com.br/como-afinar/viola/</loc>
+      <lastmod>2017-05-21T04:20-03:00</lastmod>
+      <image:image>
+        <image:loc>https://www.afinadoronline.com.br/src/uploads/afinador-viola.png</image:loc>
+        <image:title>afinador de viola</image:title>
+        <image:caption><![CDATA[Afinador de Viola Online]]></image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.afinadoronline.com.br/src/uploads/afinar-viola.jpg</image:loc>
+        <image:title>afinar viola</image:title>
+        <image:caption><![CDATA[Como afinar uma viola]]></image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.afinadoronline.com.br/src/uploads/afinacao-viola.jpg</image:loc>
+        <image:title>afinação de viola</image:title>
+        <image:caption><![CDATA[Afinação padrão da viola]]></image:caption>
+      </image:image>
+    </url>
+<!--
+  VIOLONCELO
+-->
+    <url>
+      <loc>https://www.afinadoronline.com.br/como-afinar/violoncelo/</loc>
+      <lastmod>2017-05-21T04:20-03:00</lastmod>
+      <image:image>
+        <image:loc>https://www.afinadoronline.com.br/src/uploads/afinador-violoncelo.png</image:loc>
+        <image:title>afinador de violoncelo</image:title>
+        <image:caption><![CDATA[Afinador de Violoncelo Online]]></image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.afinadoronline.com.br/src/uploads/afinar-violoncelo.jpg</image:loc>
+        <image:title>afinar violoncelo</image:title>
+        <image:caption><![CDATA[Como afinar um violoncelo]]></image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.afinadoronline.com.br/src/uploads/afinacao-violoncelo.jpg</image:loc>
+        <image:title>afinação de violoncelo</image:title>
+        <image:caption><![CDATA[Afinação padrão do violoncelo]]></image:caption>
+      </image:image>
+    </url>
+<!--
+  UKULELE
+-->
+    <url>
+      <loc>https://www.afinadoronline.com.br/como-afinar/ukulele/</loc>
+      <lastmod>2017-05-21T04:20-03:00</lastmod>
+      <image:image>
+        <image:loc>https://www.afinadoronline.com.br/src/uploads/afinador-ukulele.png</image:loc>
+        <image:title>afinador de ukulele</image:title>
+        <image:caption><![CDATA[Afinador de Ukulele Online]]></image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.afinadoronline.com.br/src/uploads/afinar-ukulele.jpg</image:loc>
+        <image:title>afinar ukulele</image:title>
+        <image:caption><![CDATA[Como afinar um ukulele]]></image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.afinadoronline.com.br/src/uploads/afinacao-ukulele.jpg</image:loc>
+        <image:title>afinação de ukulele</image:title>
+        <image:caption><![CDATA[Afinação padrão do ukulele]]></image:caption>
+      </image:image>
+    </url>
+<!--
+  EDIÇÃO RETRÔ
+-->
+    <url>
+      <loc>https://www.afinadoronline.com.br/retro/</loc>
+      <lastmod>2017-05-21T04:20-03:00</lastmod>
+    </url>
+
+  </urlset>

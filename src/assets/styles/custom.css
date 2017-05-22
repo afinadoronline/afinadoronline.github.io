@@ -19,7 +19,7 @@
 *
 ****************************************/
 
-@import url('/src/assets/styles/bootstrap.css');
+@import url('//www.afinadoronline.com.br/src/assets/styles/bootstrap.css');
 @import url('//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600');
 
 /****************************************************************************************
@@ -111,6 +111,20 @@
       **/
       .white .container {
         padding-bottom:40px;
+      }
+
+      /**
+      * RED.BOTTOM
+      **/
+      .red.bottom .container {
+        padding-bottom:50px;
+      }
+
+      /**
+      * GREEN bottom
+      **/
+      .green.bottom .container {
+        padding-bottom: 30px;
       }
 
       /**
@@ -291,11 +305,14 @@
         .green.top h2 b {
             font-weight:400;
         }
+        .green.bottom h2 {
+          margin-top:30px;
+        }
 
         /* RED */
         .red.bottom h2 {
           margin-top:20px;
-          font-weight:600;
+          font-weight:400;
         }
 
         /* COMBINED */
@@ -352,6 +369,10 @@
         .brown a {
           color:#FFFFFF;
           text-decoration:none;
+        }
+        .brown .nav.navbar-nav a {
+          text-transform:uppercase;
+          font-weight:600;
         }
 
         /* GREEN */
